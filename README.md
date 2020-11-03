@@ -1,4 +1,4 @@
-# Motion-Compensated-Pulse-Rate-Estimation
+# Motion compensated pulse rate estimation
 
 ## Project Overview
 A core feature that many users expect from their wearable devices is pulse rate estimation. Continuous pulse rate estimation can be informative for many aspects of a wearer's 
