@@ -34,4 +34,6 @@ One option for a confidence algorithm is to answer the question, "How much energ
 Dataset
 You will be using the [Troika](https://ieeexplore.ieee.org/document/6905737) dataset to build your algorithm. Find the dataset under datasets/troika/training_data. The README in that folder will tell you how to interpret the data. The starter code contains a function to help load these files.
 
+[Udacity readme](https://github.com/udacity/nd320-c4-wearable-data-project-starter)
+
 
