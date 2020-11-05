@@ -32,8 +32,7 @@ The development of this project resulted in an algorithm that:
 
 ## The Project at a glance
 This project has 2 main parts.
-> 1. Develop a Pulse Rate Algorithm on the given training data. Then Test Your Algorithm and see that it has met the success criteria.
-> 2. Apply the Pulse Rate Algorithm on a Clinical Application and compute more clinically meaningful features and discover healthcare trends.
+* Develop a pulse rate algorithm on the given training data. Then test the algorithm and see that it has met the success criteria
 
 Success criteria
 The algorithm performance success criteria was if the mean absolute error (MAE) at 90% availability was less than 15 BPM on the test set. Put another way, the best 90% of the estimates, according to the confidence output, must have a MAE of less than 15 BPM.
@@ -43,10 +42,22 @@ Remember to bandpass filter all your signals. Use the 40-240BPM range to create 
 Use plt.specgram to visualize your signals in the frequency domain. You can plot your estimates on top of the spectrogram to see where things are going wrong.
 When the dominant accelerometer frequency is the same as the PPG, try picking the next strongest PPG frequency if there is another good candidate.
 Sometimes the cadence of the arm swing is the same as the heartbeat. So if you can't find another good candidate pulse rate outside of the accelerometer peak, it may be the same as the accelerometer.
-One option for a confidence algorithm is to answer the question, "How much energy in the frequency spectrum is concentrated near the pulse rate estimate?" You can answer this by summing the frequency spectrum near the pulse rate estimate and dividing it by the sum of the entire spectrum.
+One option for a confidence algorithm is to answer the question, "How much energy in the frequency spectrum is concentrated near the pulse rate estimate?" can answer this by summing the frequency spectrum near the pulse rate estimate and dividing it by the sum of the entire spectrum.
 
 Dataset
 You will be using the [Troika](https://ieeexplore.ieee.org/document/6905737) dataset to build your algorithm. Find the dataset under datasets/troika/training_data. The README in that folder will tell you how to interpret the data. The starter code contains a function to help load these files.
+
+* Apply the pulse rate algorithm on a clinical application and compute more clinically meaningful features and discover healthcare trends.
+Part 2: Clinical Application
+Now that you have built your pulse rate algorithm and tested your algorithm to know it works, we can use it to compute more clinically meaningful features and discover healthcare trends.
+
+Specifically, you will use 24 hours of heart rate data from 1500 samples to try to validate the well-known trend that average resting heart rate increases up until middle age and then decreases into old age. We'll also see if resting heart rates are higher for women than men. See the trend illustrated in this image:
+
+Follow the steps in the notebook to reproduce this result!
+
+Dataset (CAST)
+The data from this project comes from the Cardiac Arrhythmia Suppression Trial (CAST), which was sponsored by the National Heart, Lung, and Blood Institute (NHLBI). CAST collected 24 hours of heart rate data from ECGs from people who have had a myocardial infarction (MI) within the past two years.[1] This data has been smoothed and resampled to more closely resemble PPG-derived pulse rate data from a wrist wearable.[2]
+
 
 [Udacity readme](https://github.com/udacity/nd320-c4-wearable-data-project-starter)
 
