@@ -58,6 +58,8 @@ Follow the steps in the notebook to reproduce this result!
 Dataset (CAST)
 The data from this project comes from the Cardiac Arrhythmia Suppression Trial (CAST), which was sponsored by the National Heart, Lung, and Blood Institute (NHLBI). CAST collected 24 hours of heart rate data from ECGs from people who have had a myocardial infarction (MI) within the past two years.[1] This data has been smoothed and resampled to more closely resemble PPG-derived pulse rate data from a wrist wearable.[2]
 
+![ClinicalApp1](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/Clinical_App1.png)
+![ClinicalApp2](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/Clinical_App2.png)
 
 [Udacity readme](https://github.com/udacity/nd320-c4-wearable-data-project-starter)
 
