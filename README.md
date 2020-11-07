@@ -34,6 +34,7 @@ The development of this project resulted in an algorithm that:
 This project has 3 parts:
 * Part 1: Exploratory Data Analysis (EDA)
 
+![EDA](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/EDA_FFT.png)
 
 * Part 2: Pulse rate estimation algorithm. Develop a pulse rate algorithm on the given training data. Then test the algorithm and see that it has met the success criteria
 
