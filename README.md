@@ -23,7 +23,7 @@ Building a confidence algorithm for pulse rate estimation is a little tricker th
 
 ## Project Highlight
 The development of this project resulted in an algorithm that:
-* Estimates pulse rate from the PPG signal and a 3-axis accelerometer
+* Estimates pulse rate from the PPG signal and a 3-axis accelerometer (ACCx, ACCy, ACCz)
 * Assumes pulse rate will be restricted between 40BPM (beats per minute) and 240BPM
 * Produces an estimation confidence. A higher confidence value means that this estimate should be more accurate than an estimate with a lower confidence value
 * Produces an output at least every 2 seconds
@@ -31,8 +31,9 @@ The development of this project resulted in an algorithm that:
 
 
 ## The Project at a glance
-This project has 2 main parts.
-* Develop a pulse rate algorithm on the given training data. Then test the algorithm and see that it has met the success criteria
+This project has 3 parts:
+* Part 1: Exploratory Data Analysis (EDA)
+* Part 2: Pulse rate estimation algorithm. Develop a pulse rate algorithm on the given training data. Then test the algorithm and see that it has met the success criteria
 
 Success criteria
 The algorithm performance success criteria was if the mean absolute error (MAE) at 90% availability was less than 15 BPM on the test set. Put another way, the best 90% of the estimates, according to the confidence output, must have a MAE of less than 15 BPM.
@@ -47,7 +48,7 @@ One option for a confidence algorithm is to answer the question, "How much energ
 Dataset
 You will be using the [Troika](https://ieeexplore.ieee.org/document/6905737) dataset to build your algorithm. Find the dataset under datasets/troika/training_data. The README in that folder will tell you how to interpret the data. The starter code contains a function to help load these files.
 
-* Apply the pulse rate algorithm on a clinical application and compute more clinically meaningful features and discover healthcare trends.
+* Part 3: Clinical application. Apply the pulse rate algorithm on a clinical application and compute more clinically meaningful features and discover healthcare trends.
 Part 2: Clinical Application
 Now that you have built your pulse rate algorithm and tested your algorithm to know it works, we can use it to compute more clinically meaningful features and discover healthcare trends.
 
