@@ -33,6 +33,8 @@ The development of this project resulted in an algorithm that:
 ## The Project at a glance
 This project has 3 parts:
 * Part 1: Exploratory Data Analysis (EDA)
+
+
 * Part 2: Pulse rate estimation algorithm. Develop a pulse rate algorithm on the given training data. Then test the algorithm and see that it has met the success criteria
 
 Success criteria
@@ -54,7 +56,6 @@ Now that you have built your pulse rate algorithm and tested your algorithm to k
 
 Specifically, you will use 24 hours of heart rate data from 1500 samples to try to validate the well-known trend that average resting heart rate increases up until middle age and then decreases into old age. We'll also see if resting heart rates are higher for women than men. See the trend illustrated in this image:
 
-Follow the steps in the notebook to reproduce this result!
 
 Dataset (CAST)
 The data from this project comes from the Cardiac Arrhythmia Suppression Trial (CAST), which was sponsored by the National Heart, Lung, and Blood Institute (NHLBI). CAST collected 24 hours of heart rate data from ECGs from people who have had a myocardial infarction (MI) within the past two years.[1] This data has been smoothed and resampled to more closely resemble PPG-derived pulse rate data from a wrist wearable.[2]
