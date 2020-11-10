@@ -30,7 +30,6 @@ This code is implemented to process files containing PPG and (3D) accelerometer 
 
 The pulse rate algorithm, presented in Part 2, is adapted for a clinical application to compute more clinically meaningful features and discover healthcare trends. Specifically, 24 hours of heart rate data from 1500 samples are used to validate the well-known trend that average resting heart rate increases up until middle age and then decreases into old age, and to compare resting heart rates for women than men.
 
-![ClinicalApp1](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/Clinical_App1.png)
 ![ClinicalApp2](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/Clinical_App2.png)
 
 
