@@ -40,7 +40,7 @@ One option for a confidence algorithm is to answer the question, "How much energ
 Dataset
 You will be using the [Troika](https://ieeexplore.ieee.org/document/6905737) dataset to build your algorithm. Find the dataset under datasets/troika/training_data. The README in that folder will tell you how to interpret the data. The starter code contains a function to help load these files.
 
-* Part 3: [Clinical application] (https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Part3_ClinicalApplication.ipynb)
+* Part 3: [Clinical application](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Part3_ClinicalApplication.ipynb)
 
 Apply the pulse rate algorithm on a clinical application and compute more clinically meaningful features and discover healthcare trends.
 Part 2: Clinical Application
