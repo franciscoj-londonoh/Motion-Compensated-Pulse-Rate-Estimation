@@ -51,6 +51,7 @@ The data from this project comes from the Cardiac Arrhythmia Suppression Trial (
 ![ClinicalApp1](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/Clinical_App1.png)
 ![ClinicalApp2](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/Clinical_App2.png)
 
-[Udacity readme](https://github.com/udacity/nd320-c4-wearable-data-project-starter)
+Detailed description of the project proposal is provided in the [README](https://github.com/udacity/nd320-c4-wearable-data-project-starter) file of the Nanoprogram at Udacity's Github.
+
 
 
