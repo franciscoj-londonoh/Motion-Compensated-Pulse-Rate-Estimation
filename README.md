@@ -19,7 +19,7 @@ The development of this project resulted in an algorithm that:
 
 ## The Project at a glance
 This project has 3 parts:
-* Part 1: Exploratory Data Analysis (EDA)
+* Part 1: Exploratory Data Analysis [(EDA)](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Part1_EDA.ipynb)
 
 ![EDA](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/EDA_FFT.png)
 
