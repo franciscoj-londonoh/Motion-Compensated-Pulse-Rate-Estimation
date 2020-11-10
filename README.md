@@ -23,7 +23,7 @@ This project has 3 parts:
 
 ![EDA](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Images/EDA_FFT.png)
 
-* Part 2: Pulse rate estimation algorithm. Develop a pulse rate algorithm on the given training data. Then test the algorithm and see that it has met the success criteria
+* Part 2: [Pulse rate estimation algorithm](https://github.com/franciscoj-londonoh/Motion-Compensated-Pulse-Rate-Estimation/blob/main/Part2_PulseRateEstimation.ipynb). Develop a pulse rate algorithm on the given training data. Then test the algorithm and see that it has met the success criteria
 
 Success criteria
 The algorithm performance success criteria was if the mean absolute error (MAE) at 90% availability was less than 15 BPM on the test set. Put another way, the best 90% of the estimates, according to the confidence output, must have a MAE of less than 15 BPM.
